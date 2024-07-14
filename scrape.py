@@ -56,8 +56,7 @@ def main():
                         continue  
                     
                     os.remove(filename)
-                    
-                    time.sleep(1)  # wait one second to avoid ratelimitng
+                    time.sleep(1)  # wai a second to avoid ratelimitng
                     
         print("Done!")
         
